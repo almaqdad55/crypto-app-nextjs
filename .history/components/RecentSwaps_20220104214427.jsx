@@ -1,0 +1,11 @@
+import DropDownList from './DropDownList';
+const RecentSwaps = () => {
+  return (
+    <div className=" flex flex-col justify-between relative  min-h-[323px]">
+      {/* <DropDownList /> */}
+      <h1 className="text-[20px] text-[#061423] p-2">Transaction History</h1>
+    </div>
+  );
+};
+
+export default RecentSwaps;

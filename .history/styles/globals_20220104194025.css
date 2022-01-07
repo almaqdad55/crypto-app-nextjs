@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white;
+  }
+}
+
+@layer components {
+  .icon-group {
+    @apply flex flex-col  items-center text-sm cursor-pointer text-[#9A9FAD] hover:text-[#544AC3] transition duration-200 hover:fill-black;
+  }
+}

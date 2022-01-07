@@ -1,0 +1,20 @@
+import { SwitchHorizontalIcon } from '@heroicons/react/outline';
+
+const Swap = () => {
+  return (
+    <div className=" flex text-[#2A316F] justify-between">
+      <div className="relative flex">
+        <img src="/bitcoin-icon.svg" alt="" />
+        <img src="/ripple-icon.svg" alt="" />
+      </div>
+      <div className=" flex  text-sm">
+        <p>0.62844WETH</p>
+        <SwitchHorizontalIcon className="h-4" />
+        <p>200USDT</p>
+      </div>
+      <p>$9,252.20</p>
+    </div>
+  );
+};
+
+export default Swap;
